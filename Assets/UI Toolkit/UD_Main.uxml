@@ -1,0 +1,16 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Style.uss?fileID=7433441132597879392&amp;guid=4ce5bf424d948fa45bb6d993c5c47d66&amp;type=3#Style" />
+    <ui:VisualElement name="Main01" style="flex-grow: 1; flex-direction: row; justify-content: center; align-items: center;">
+        <ui:VisualElement name="BackScreenA" class="BackScreen" style="background-color: rgb(43, 69, 83);" />
+        <ui:VisualElement name="BackScreenB" style="flex-grow: 1; background-color: rgb(214, 221, 214); flex-direction: row; width: 100%; height: 100%;" />
+        <ui:VisualElement name="Maindeco1" style="flex-grow: 1; position: absolute; align-items: stretch; width: 50%; height: 50%; background-image: resource(&apos;UI/Main/Group 17_122_8&apos;); -unity-background-scale-mode: scale-to-fit;" />
+        <ui:VisualElement name="Maindeco2" style="flex-grow: 1; background-image: resource(&apos;UI/Main/Main_deco1_125_9&apos;); position: absolute; width: 59%; height: 61%;" />
+        <ui:VisualElement style="flex-grow: 1; position: absolute; justify-content: space-between; flex-direction: row; width: 100%; padding-top: 57px; padding-right: 57px; padding-bottom: 57px; padding-left: 57px;">
+            <ui:Button display-tooltip-when-elided="true" name="main_button_left" style="position: relative; justify-content: flex-start; width: 168px; height: 168px; background-image: resource(&apos;UI/Main/main_button_left_143_38&apos;); background-color: rgba(188, 188, 188, 0); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0;" />
+            <ui:Button display-tooltip-when-elided="true" name="main_button_right" style="position: relative; justify-content: flex-start; width: 168px; height: 168px; background-color: rgba(188, 188, 188, 0); border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; background-image: resource(&apos;UI/Main/main_button_right_143_44&apos;);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+    <ui:VisualElement name="Mask" usage-hints="None" focusable="false" style="flex-grow: 1; position: absolute; height: 1980px; width: 1864px; opacity: 1;">
+        <ui:VisualElement style="flex-grow: 1; background-image: resource(&apos;UI/Main/Ellipse 10_87_230&apos;); position: absolute; height: 1132px; width: 1400px; top: 528px; left: 1144px;" />
+    </ui:VisualElement>
+</ui:UXML>
